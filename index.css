@@ -11,6 +11,7 @@ body{
 
 * {
 	box-sizing: border-box;
+	border: 1px solid red;
 }
 
 
@@ -19,6 +20,14 @@ html{
 }
 
 /**TYPOGRAPHY**/
+h4, h1, h2 { 
+	font-weight: 100;
+	margin: 0;
+}
+
+h1 {
+	font-size: 3rem;
+}
 
 h3 {
 	text-transform: uppercase;
@@ -27,13 +36,96 @@ h3 {
 	margin: 0;
 }
 
-h4, h1, h2 { 
-	font-weight: 100;
-	margin: 0;
-}
-
 /**IMAGES**/
 #shoppingCart { 
 	width:1.5rem;
 	height:1.5rem;
 }
+
+/**GENERIC**/
+.wrapper {
+	width: 80%;
+	margin: auto;
+}
+
+.fullSpanImage{
+	background-size: cover;
+	background-position: center center;
+}
+
+/**HOMEPAGE SECTIONS**/
+.hero {
+	height: 65vh;
+	position: relative;
+	background-image: url("./images/homepage/hero.jpg");
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 2rem;
+}
+
+.logoContainer {
+	display: flex;
+	flex-direction: row;
+}
+
+.logoText {
+	margin-left: 1rem;
+}
+
+.heroText {
+	position: absolute;
+	bottom: 0px;
+	margin-bottom: 2rem;
+	width: 30%;
+}
+
+.productHomepageContainer{
+	height: 50vh;
+	display: flex;
+}
+
+.homepageProductImage {
+	width:70%;
+}
+
+.homepageProductTextContainer {
+	width: 30%;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+} 
+
+.homepageProductDesc { 
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 2rem;
+	width: 85%;
+}
+
+#shopNow{
+	margin-top:2rem;
+}
+
+#homepageProduct1 {
+	background-image: url("./images/homepage/product1.jpg");
+}
+
+#homepageProduct2 {
+	background-image: url("./images/homepage/product2.jpg");
+	order: 2;
+}
+
+#homepageProduct2 + .homepageProductTextContainer {
+	text-align: right;	
+} 
+
+#homepageProduct3 {
+	background-image: url("./images/homepage/product3.jpg");
+}
+
