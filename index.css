@@ -11,7 +11,7 @@ body{
 
 * {
 	box-sizing: border-box;
-	border: 1px solid red;
+	border: 1px solid transparent;
 }
 
 
@@ -51,6 +51,26 @@ h3 {
 .fullSpanImage{
 	background-size: cover;
 	background-position: center center;
+}
+
+
+/**FOOTER**/
+footer {
+	background-color: #151515;
+	color: #f7f7f7;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+footer > .wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.footerIcon{
+	height: 2rem;
+	width: 2rem;
 }
 
 /**HOMEPAGE SECTIONS**/
@@ -129,3 +149,40 @@ h3 {
 	background-image: url("./images/homepage/product3.jpg");
 }
 
+.instagramPhotoContainer {
+	display: flex;
+}
+
+.instagramSection {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background-color: #f7f7f7;
+}
+.insta {
+	width: 25%;
+	height: 300px;
+	position: relative;
+	margin-top: 2rem;
+}
+
+.instaHandle {
+	position: absolute;
+	bottom: 0;
+	margin: 1rem;
+}
+
+#insta1 {
+	background-image: url("./images/homepage/insta1.png");
+}
+
+#insta2 {
+	background-image: url("./images/homepage/insta2.jpg");
+}
+
+#insta3 {
+	background-image: url("./images/homepage/insta3.jpg");
+}
+
+#insta4 {
+	background-image: url("./images/homepage/insta4.jpg");
+}
