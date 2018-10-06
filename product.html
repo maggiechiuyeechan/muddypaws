@@ -1,0 +1,272 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://use.typekit.net/gke8coa.css">
+
+<link rel="stylesheet" href="./normalize.css">
+<link rel="stylesheet" href="./index.css">
+<script src="./script.js"></script>
+<title>Muddy Paws</title>
+</head>
+
+<!--HERO-->
+	<div class="hero fullSpanImage" id="productHero">
+	<div class="wrapper">
+		<div class="nav">
+			<div class="logoContainer">
+				<img src="./images/homepage/logo.svg" alt="Muddy paws paw print logo">
+				<div class="logoText">
+					<h3>Muddy paws</h3>
+					<h4>Adventure gear for dogs</h4>
+				</div>
+			</div>
+			<img id="shoppingCart" src="./images/homepage/shoppingcart.svg" alt="Shoppingcart Icon">
+		</div>
+	</div>
+	</div>
+
+
+<!--PRODUCT SHOWCASE-->
+	<div class="productDetailsContainer wrapper">
+		<div class="productDetailsImageContainer">
+			<div class="productDetailsZoom fullSpanImage"></div>
+
+			<div class="productThumbNailContainer">
+				<div class="productDetailsThumb fullSpanImage" id="Thumb1"></div>
+				<div class="productDetailsThumb fullSpanImage" id="Thumb2"></div>
+				<div class="productDetailsThumb fullSpanImage" id="Thumb3"></div>
+			</div>
+		</div>
+		<div class="productDetailsTextContainer">
+			<h1>Warm Harness</h1>
+			<p>The Warmess is a canine harness built to last, specifically designed to keep your pet warm in cold climates. Its dry-fast material has been tested to keep your canine warm without accumulating humidity which wil important for below 0 weather.</p>
+			<h5>View: Materials | washing instructions | fit guide <br></h3>
+			
+			<div class="sizeContainer">
+			<h5>Size</h5>
+			<select name="size" id="sizeSelector">
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+			</select>
+			</div>
+						
+			<div class="colourContainer">
+			<h5>Color:</h5>
+
+				<input type="radio" name="itemColour" value="black" checked="checked"/>
+				<label for="black"><div class="colourSelector" id="black"></div></label>
+
+				<input type="radio" name="itemColour" value="red" />
+				<label for="red"><div class="colourSelector" id="red"></div></label>
+
+				<input type="radio" name="itemColour" value="white" />
+				<label for="white"><div class="colourSelector" id="white"></div></label>
+
+				<input type="radio" name="itemColour" value="green" />
+				<label for="green"><div class="colourSelector" id="green"></div></label>
+			</div>	
+			<!-- <button class="colourSelector" id="black"> </button>
+			<button class="colourSelector" id="red"> </button>
+			<button class="colourSelector" id="white"> </button>
+			<button class="colourSelector" id="green"> </button> -->
+
+			<button id="addToCart"><h2>Add to cart</h2></button>
+		</div>
+	</div>
+
+<!--PRODUCT DETAILS-->
+<div class="keyFeaturesSection">
+	<div class="wrapperSmall">
+		<h1>Key features</h1>
+
+		<div class="keyFeatureContainer" id="keyFeature1">
+			<div class="keyFeatureImage fullSpanImage" id="Thumb1"></div>
+			<div class="keyFeatureTextContainer">
+				<h2>Belt Attachment</h2>
+				<p>Keep your dog safe while you are traveling to your destination by using this universal seat attachment.</p>
+				<span class="keyFeatureDecorativeNumber decorativeNumberLeft">1</span>
+			</div>
+		</div>
+
+		<div class="keyFeatureContainer" id="keyFeature2">
+			<div class="keyFeatureImage fullSpanImage" id="Thumb2"></div>
+			<div class="keyFeatureTextContainer">
+				<h2>Metal hardware</h2>
+				<p>Metal hardware is necessary for long hikes as any other material will wear out over long hikes.</p>
+				<span class="keyFeatureDecorativeNumber" id="decorativeNumberRight">2</span>
+			</div>
+		</div>
+
+			<div class="keyFeatureContainer" id="keyFeature3">
+				<div class="keyFeatureImage fullSpanImage" id="Thumb3"></div>
+				<div class="keyFeatureTextContainer">
+					<h2>Belt Attachment</h2>
+					<p>Keep your dog safe while you are traveling to your destination by using this universal seat attachment.</p>
+					<span class="keyFeatureDecorativeNumber decorativeNumberLeft">3</span>
+				</div>
+			</div>
+	</div> <!-- wrapper -->
+</div> <!-- SectionContainer -->
+
+<!--PRODUCT DETAILS-->
+<div class="reviewSection">
+	<div class="wrapper">
+		<h1>Reviews and ratings</h1>
+		
+		<div class="reviewsHeader">
+			<div class="starBarsContainer">
+
+
+				<div class="starsMainContainer">
+					<div class="starVisualizationsContainer">
+							<div class="starsContainer">
+								<img src="./images/productPage/reviews/star.svg" alt="stars">
+								<img src="./images/productPage/reviews/star.svg" alt="stars">
+								<img src="./images/productPage/reviews/star.svg" alt="stars">
+								<img src="./images/productPage/reviews/star.svg" alt="stars">
+								<img src="./images/productPage/reviews/star.svg" alt="stars">
+							</div>
+							<div class="bar" id="fiveStars"></div>
+					</div>
+					<div class="starReviewNumbers">
+						<p>598 reviews</p>
+					</div>
+				</div>
+
+				<div class="starsMainContainer">
+					<div class="starVisualizationsContainer">
+							<div class="starsContainer">
+								<img src="./images/productPage/reviews/star.svg" alt="stars">
+								<img src="./images/productPage/reviews/star.svg" alt="stars">
+								<img src="./images/productPage/reviews/star.svg" alt="stars">
+								<img src="./images/productPage/reviews/star.svg" alt="stars">
+							</div>
+							<div class="bar" id="fourStars"></div>
+					</div>
+					<div class="starReviewNumbers">
+						<p>169 reviews</p>
+					</div>
+				</div>
+
+				<div class="starsMainContainer">
+					<div class="starVisualizationsContainer">
+							<div class="starsContainer">
+								<img src="./images/productPage/reviews/star.svg" alt="stars">
+								<img src="./images/productPage/reviews/star.svg" alt="stars">
+								<img src="./images/productPage/reviews/star.svg" alt="stars">
+							</div>
+							<div class="bar" id="threeStars"></div>
+					</div>
+					<div class="starReviewNumbers">
+						<p>48 reviews</p>
+					</div>
+				</div>
+
+				<div class="starsMainContainer">
+					<div class="starVisualizationsContainer">
+							<div class="starsContainer">
+								<img src="./images/productPage/reviews/star.svg" alt="stars">
+								<img src="./images/productPage/reviews/star.svg" alt="stars">
+							</div>
+							<div class="bar" id="twoStars"></div>
+					</div>
+					<div class="starReviewNumbers">
+						<p>35 reviews</p>
+					</div>
+				</div>	
+
+				<div class="starsMainContainer">
+					<div class="starVisualizationsContainer">
+							<div class="starsContainer">
+								<img src="./images/productPage/reviews/star.svg" alt="stars">
+							</div>
+							<div class="bar" id="oneStars"></div>
+					</div>
+					<div class="starReviewNumbers">
+						<p>10 reviews</p>
+					</div>
+				</div>	
+
+			</div>
+			<div class="calloutText">
+				<img src="./images/productPage/reviews/quote.png"class="keyFeatureDecorativeNumber" id="quote1" alt="">
+				<h1> This is the best harness ever! </h1>
+				<img src="./images/productPage/reviews/quote.png"class="keyFeatureDecorativeNumber" id="quote2" alt="">
+			</div>
+		</div>
+
+		<div class="feedbackContainer">
+			<h1>Feedback</h1>
+
+			<div class="feebackUnitContainer">
+				<div class="feedbackTitleContainer">
+					<div class="mainTitle">
+						<h2>A great harness</h2>
+						<div class="starsContainer">
+							<img src="./images/productPage/reviews/star.svg" alt="stars">
+							<img src="./images/productPage/reviews/star.svg" alt="stars">
+							<img src="./images/productPage/reviews/star.svg" alt="stars">
+							<img src="./images/productPage/reviews/star.svg" alt="stars">
+						</div>
+					</div>
+					<div class="author">
+						<h2>By: Rachelle Chow, September 4, 2018</h2></div>					
+				</div>
+				<div class="feedbackContent">
+					<p>
+						I love this harness. I've tried a ridiculous amount of harnesses in my life, but this one is definitely one of my favorites. At first I didn't think it fit my dog, it seemed like it was just a tad too tight, until I realized I'm an idiot and I figured out how to adjust it. It adjusts quite a bit, actually, and for reference I got the medium size for my 50lb Aussie and after making it just a big longer under the chest, it fits perfectly. She walks, runs, and jumps easily in this harness. And I LOVE that there is a front clip and a back clip! Very few harnesses have both. I also love the bright orange color, I think it stands out really well against my black and gray dog. Quality seems good, I'm really happy with it, and so is my dog.
+					</p>
+				</div>
+			</div> <!-- unitcontainer -->
+		
+
+			<div class="feebackUnitContainer">
+				<div class="feedbackTitleContainer">
+					<div class="mainTitle">
+						<h2>Totally recommend this harness !!</h2>
+						<div class="starsContainer">
+							<img src="./images/productPage/reviews/star.svg" alt="stars">
+							<img src="./images/productPage/reviews/star.svg" alt="stars">
+							<img src="./images/productPage/reviews/star.svg" alt="stars">
+							<img src="./images/productPage/reviews/star.svg" alt="stars">
+						</div>
+					</div>
+					<div class="author">
+						<h2>By: Rachelle Chow, September 4, 2018</h2></div>					
+				</div>
+				<div class="feedbackContent">
+					<p>
+							This is a fantastic harness once you get it adjusted to your dog. My dog was awful to take on walks - he is 70+ pounds and would pull my shoulder out of the socket if he saw a squirrel or anything else that needed to be investigated/chased. By clipping the leash to the front (on the dog's chest), if he pulled, he got spun around towards me... which frustrated him very quickly and stopped the pulling!! It's amazing and I can enjoy taking him for walks now. For the record I did try other methods to get him to walk nicer first, but this one is the best, because he is very stubborn.
+
+							The only con (for the dog, not me), is he hates it when I put this thing on him. Literally freezes and makes the saddest face you'll ever see - check out the video. I promise he was much happier the instant we got outside and forgot all about the harness, it's just the initial putting it on that must make him insecure haha					</p>
+				</div>
+			</div> <!-- unitcontainer -->
+		</div>
+
+	</div> <!-- section -->
+</div>
+
+
+<!--FOOTER-->
+<footer>
+	<div class="wrapper">
+	<h2 class="footerText">
+		Got a question? <br>
+		E-mail us at: <br>
+		info@muddypaws.com
+	</h2>
+	<div class="socialMediaContainer">
+		<img src="./images/footer/twitter.svg" class="footerIcon" alt="twitter icon">
+		<img src="./images/footer/pinterest.svg" class="footerIcon"  alt="pinterest icon">
+		<img src="./images/footer/instagram.svg" class="footerIcon"  alt="instagram icon">
+		<img src="./images/footer/facebook.svg" class="footerIcon"  alt="facebook icon">
+	</div>
+	</div>
+</footer>
+
+<body>
+</body>
+</html>

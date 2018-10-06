@@ -11,7 +11,7 @@ body{
 
 * {
 	box-sizing: border-box;
-	border: 1px solid transparent;
+	border: 0px solid red;
 }
 
 
@@ -19,10 +19,19 @@ html{
 	font-size: 16px;
 }
 
+a {
+	color: black;
+	text-decoration: none;
+}
+
 /**TYPOGRAPHY**/
 h4, h1, h2 { 
 	font-weight: 100;
 	margin: 0;
+}
+
+p {
+	font-size: 1.2rem;
 }
 
 h1 {
@@ -36,6 +45,10 @@ h3 {
 	margin: 0;
 }
 
+h5 {
+	text-transform: uppercase;
+	display: inline;
+}
 /**IMAGES**/
 #shoppingCart { 
 	width:1.5rem;
@@ -46,6 +59,11 @@ h3 {
 .wrapper {
 	width: 80%;
 	margin: auto;
+}
+
+.wrapperSmall{
+	width: 60%;
+	margin: auto;	
 }
 
 .fullSpanImage{
@@ -77,9 +95,11 @@ footer > .wrapper {
 .hero {
 	height: 65vh;
 	position: relative;
-	background-image: url("./images/homepage/hero.jpg");
 }
 
+#homeHero {
+	background-image: url("./images/homepage/hero.jpg");
+}
 .nav {
 	display: flex;
 	justify-content: space-between;
@@ -185,4 +205,224 @@ footer > .wrapper {
 
 #insta4 {
 	background-image: url("./images/homepage/insta4.jpg");
+}
+
+/**PRODUCT PAGE SECTIONS**/
+#productHero{
+	background-image: url("./images/homepage/product1.jpg")
+}
+
+#Thumb1{
+	background-image: url("./images/productPage/productCU1.png")
+}
+#Thumb2{
+	background-image: url("./images/productPage/productCU2.png")
+}
+#Thumb3{
+	background-image: url("./images/productPage/productCU3.png")
+}
+
+.productDetailsContainer {
+	display: flex;
+	align-items: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.productDetailsThumb {
+	width: 30%;
+	height: 100px;
+}
+
+.productThumbNailContainer {
+	display: flex;
+}
+.productDetailsImageContainer {
+	width: 50%;
+}
+.productDetailsZoom{
+	height: 400px;
+	background-image: url("./images/productPage/harness.jpg")
+}
+.productDetailsTextContainer{
+	width: 50%;
+	padding: 2rem;
+}
+
+.colourSelector {
+	background-color: black;
+	height: 1.5rem;
+	width: 1.5rem;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.sizeContainer {
+	margin-top: 2rem;
+}
+
+.colourContainer {
+	margin-top: 2rem;
+}
+
+#red {
+	background-color: #ff3366;
+}
+
+#white {
+	background-color: #f2f2f2;
+}
+
+#green {
+	background-color: #2ac940;
+}
+
+#addToCart {
+	background-color: black;
+	color: white;
+	padding: 1rem;
+	display: block;
+	width: 100%;
+	margin-top: 2rem;
+}
+
+
+/**PRODUCT DETAILS**/
+.keyFeaturesSection {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background-color: #f7f7f7;
+}
+
+.keyFeatureContainer {
+	display: flex;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.keyFeatureImage {
+	width: 80%;
+	height: 300px;
+}
+
+.keyFeatureTextContainer {
+	padding: 2rem;
+	width: 40%;
+}
+
+.keyFeatureTextContainer > p,
+.keyFeatureTextContainer > h2 {
+	z-index: 5;
+	width: 75%;
+}
+
+
+#Thumb1,
+#Thumb3 {
+	order: 2;
+}
+
+#keyFeature1 > .keyFeatureTextContainer,
+#keyFeature3 > .keyFeatureTextContainer{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+	text-align: right;
+}
+
+#keyFeature2 > .keyFeatureTextContainer {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	justify-content: center;
+}
+
+.keyFeatureTextContainer{
+	position: relative;
+}
+
+.keyFeatureDecorativeNumber {
+	position: absolute;
+	color: #e0e0e0;
+	font-size: 25rem;
+	top: -5rem;
+	font-weight: bold;
+	z-index: 0;
+}
+
+.decorativeNumberLeft {
+	left: 0;
+
+}
+
+#decorativeNumberRight {
+	right: 0;
+}
+
+/**REVIEWS**/
+.reviewSection {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin-bottom: 2rem;
+}
+
+.reviewsHeader {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+}
+
+.calloutText {
+	width: 30%;
+	text-align: center;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+.calloutText > h1 {
+	z-index: 100;
+}
+
+.bar {
+	background-color: black;
+	height: 3px;
+}
+
+.starsMainContainer {
+	display: flex;
+}
+
+.starReviewNumbers {
+	margin-left: 1rem;
+}
+
+#fiveStars{
+	width: 568px;
+}
+
+#quote1 {
+	top:0;
+	right:70%;
+}
+
+.feedbackTitleContainer{
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+#quote2 {
+    top: 40%;
+    left: 70%;
+}
+
+
+.author {
+	text-align: right;
+}
+.mainTitle {
+	display: flex;
 }
