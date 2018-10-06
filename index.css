@@ -11,7 +11,6 @@ body{
 
 * {
 	box-sizing: border-box;
-	border: 0px solid red;
 }
 
 
@@ -104,7 +103,7 @@ footer > .wrapper {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 2rem;
+	padding-top: 2rem;
 }
 
 .logoContainer {
